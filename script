@@ -557,11 +557,3 @@ end
 local Tab1Section = Tab1:AddSection({
 Name = "jailbreak Script Gui"
 })
-
-Tab1:AddButton({
-Name = "jailbreak Script Gui",
-Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SnipeHype200/i-music/main/beta.lua"))()
-print("Script Executed")
-end 
-})
