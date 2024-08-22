@@ -541,3 +541,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/1price/usercreation/m
 print("Script Executed")
 end 
 })
+
+local Tab1Section = Tab1:AddSection({
+Name = "Rate My Avatar Script Gui"
+})
+
+Tab1:AddButton({
+Name = "Rate My Avatar Script Gui",
+Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/scripts/main/rate%20my%20avatar",true))()
+print("Script Executed")
+end 
+})
