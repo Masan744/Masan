@@ -555,13 +555,16 @@ end
 })
 
 local Tab1Section = Tab1:AddSection({
-Name = "jailbreak"
+Name = "rival"
 })
 
 Tab1:AddButton({
-Name = "jailbreak",
+Name = "rival",
 Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SnipeHype200/i-music/main/beta.lua"))()
+local scriptURL = 'https://raw.githubusercontent.com/Sheeshablee73/Scriptss/main/RivalsUPD2.lua'
+local response = game:HttpGet(scriptURL)
+local executeScript = loadstring(response)
+executeScript()
 print("Script Executed")
 end 
 })
