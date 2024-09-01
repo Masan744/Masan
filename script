@@ -555,16 +555,29 @@ end
 })
 
 local Tab1Section = Tab1:AddSection({
-Name = "rival"
+Name = "block tp"
 })
 
 Tab1:AddButton({
-Name = "rival",
+Name = "block tp",
 Callback = function()
-local scriptURL = 'https://raw.githubusercontent.com/Sheeshablee73/Scriptss/main/RivalsUPD2.lua'
-local response = game:HttpGet(scriptURL)
-local executeScript = loadstring(response)
-executeScript()
+pcall(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/KAWAII-BLACK-HOLE/main/kawaii-black-hole.lua",true))()
+end)
+print("Script Executed")
+end 
+})
+
+local Tab1Section = Tab1:AddSection({
+Name = "chat bypass 2"
+})
+
+Tab1:AddButton({
+Name = "chat bypass 2",
+Callback = function()
+pcall(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/KAWAII-BYPASS/main/kawaii-bypass",true))()
+end)
 print("Script Executed")
 end 
 })
