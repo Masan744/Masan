@@ -581,3 +581,17 @@ end)
 print("Script Executed")
 end 
 })
+
+local Tab1Section = Tab1:AddSection({
+Name = "combat warriors"
+})
+
+Tab1:AddButton({
+Name = "combat warriors",
+Callback = function()
+pcall(function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Combat-Warriors-auto-parry-that-works-solara-supported-17089"))()
+print("Script Executed")
+end 
+})
+
