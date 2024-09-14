@@ -9,9 +9,9 @@ local TweenService = game:GetService("TweenService")
 -- Settings
 local settings = {
     guiDuration = 3,
-    mainText = "Universal Shakars Hub",
-    loadingText = "Universal Shakars Hub Loading",
-    loadedText = "Universal Shakars Hub Loaded",
+    mainText = "Universal Masan Hub",
+    loadingText = "Universal Masan Hub Loading",
+    loadedText = "Universal Masan Hub Loaded",
     creditsText = "Credits To sh4k4r6o For Making The Loading Gui.",
     countdownTextEnabled = true,
     countdownTextDuration = 3,
@@ -67,7 +67,7 @@ local function createImageLabel(name, assetId, position)
     return imageLabel
 end
 
-local leftImage = createImageLabel("LeftImage", "122114769311265", UDim2.new(0.05, 0, 0.5, -100))
+local leftImage = createImageLabel("LeftImage", "103662232016902", UDim2.new(0.05, 0, 0.5, -100))
 
 -- Rainbow Effect
 local function applyRainbowEffect(label)
